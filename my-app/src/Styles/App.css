@@ -25,67 +25,8 @@
   color: var(--textcolor);
 }
 
-.card{
-  display: flexbox;
-  align-items: center;
-  padding-right: 20%;
-  padding-left: 20%;
-  padding-bottom: 5%;
-  background-color: var(--secondaryColorLight);
-}
-.chart{
-  background-image: linear-gradient(#FFA74A, #CFCAB6);
-  border: solid;
-  border-color: #025464;
-  border-width: 3px;
-}
 
-.doubleChartLayout{
-  display: flexbox;
-  background-image: linear-gradient(#FFA74A, #CFCAB6);
-  width: 100%;
-
-}
-
-.doubleChartItem1 {
-  width: 50%;
-  float: left;
-  overflow: hidden;
-}
-.doubleChartItem2 {
-  width:50%;
-  float:right;
-  overflow: hidden;
-}
 .imageEffects:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
-
-
-/* .cardStart {
-  display:flex;
-}
-.cardEnd {
-  display: flex;
-} */
-
-/* .chart {
-  display: center;
-  align-items: center;
-  padding: 2rem;
-  position: center;
-  width: 60%;
-  border-bottom: solid;
-  border-top: solid;
-  border-color: var(--mainColor);
-  border-top-width: 1px;
-  border-bottom-width: 2px;
-} */
-
-/* .chartCaption {
-  padding:2rem;
-  width:40%;
-
-  background: var(--secondaryColor);
-} */

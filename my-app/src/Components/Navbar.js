@@ -10,7 +10,7 @@ function Navbar() {
     const showNavBar = () =>{
         navRef.current.classList.toggle("responsive_nav");
     }
-    
+
     return(
         <header>
             <img src={logoWhite} className="navLogo" alt="AggieReuseLogoWhite"></img>
