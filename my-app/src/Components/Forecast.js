@@ -10,7 +10,7 @@ function Forecast() {
                 <img src={forecastData} className="forecast" alt="forecastedData"></img>
             </div>
             <div className="chartCaption">
-                <p>Use of Long Short-Term Memory in order to predict the foot traffic of the next thirty weeks</p>
+                <p>Use of Long Short-Term Memory in order to predict the foot traffic of the next thirty days</p>
             </div>
         </div>
     );

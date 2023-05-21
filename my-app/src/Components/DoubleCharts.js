@@ -15,9 +15,6 @@ function DoubleCharts() {
         borderColor: "black",
         borderWidth: 2,
         }],
-        options: [{
-
-        }]
     });
 
     return(
