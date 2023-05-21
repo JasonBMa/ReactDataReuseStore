@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+:root {
+  --mainColor: #044a58;
+  --secondaryColor: #d46844;
+  --secondaryColorLight: #E8AA42;
+  --highlight: #F8F1F1;
+  --textcolor: #eee;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+
+.graphTitle {
+  padding: .4rem;
+  text-align:center;
+  font-size: 2rem;
+  background-color:var(--secondaryColorLight);
+  color: var(--textcolor);
+}
+
+.card{
+  display: flexbox;
+  align-items: center;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  background-color: var(--secondaryColorLight);
+}
+.chart{
+  background-image: linear-gradient(#FFA74A, #CFCAB6);
+  border: solid;
+  border-color: #025464;
+  border-width: 3px;
+}
+
+.doubleChartLayout{
+  display: flexbox;
+  background-image: linear-gradient(#FFA74A, #CFCAB6);
+  width: 100%;
+
+}
+
+.doubleChartItem1 {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+.doubleChartItem2 {
+  width:50%;
+  float:right;
+  overflow: hidden;
+}
+.imageEffects:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+/* .cardStart {
+  display:flex;
+}
+.cardEnd {
+  display: flex;
+} */
+
+/* .chart {
+  display: center;
+  align-items: center;
+  padding: 2rem;
+  position: center;
+  width: 60%;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: var(--mainColor);
+  border-top-width: 1px;
+  border-bottom-width: 2px;
+} */
+
+/* .chartCaption {
+  padding:2rem;
+  width:40%;
+
+  background: var(--secondaryColor);
+} */
